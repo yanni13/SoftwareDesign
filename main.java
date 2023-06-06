@@ -200,8 +200,6 @@ class Stock {
         System.out.println("재료 중 " + material + "이/가 부족합니다.");
         System.out.println("재료를 채워놔주세요.");
 
-        // String[] arr2 = impossible.split(" ");
-        // String[] arr3 = material.split(" ");
         System.out.println("=====================================================================");
     }
     
@@ -211,9 +209,6 @@ class Order {
     private static int count = 1;
     private List<String> orderedMenus;
     private List<Integer> orderedPrices;
-
-    //private String orderedMenu;
-    //private int orderPrice;
 
     public Order() {
         orderedMenus = new ArrayList<>();
